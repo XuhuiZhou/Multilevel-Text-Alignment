@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## A Benchmark for Document Relation Prediction and Localization
 
-You can use the [editor on GitHub](https://github.com/XuhuiZhou/localized_document/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Comparing Documents
+Many potential applications of natural languageprocessing involve a comparative analysis of two(or more) documents. In general, whenever we seek to model relationships between documents, we believe that these relationships can be localized in one or both documents. We believe that automatic identification of these local correspondences is useful, both directly (e.g., mining parallel sentences for use in traininga machine translation system), and for providing explanations (e.g., in plagiarism detection). Of course, these finegrained, localized correspondences are not typically directly observablein realistic datasets.  Here, we consider scenarios where positive and negative examples of document-level relationships are available for supervision, but finegrained correspondences between their parts are not. The problem we aim to solve is:  (i) given twodocuments (each decomposed, e.g., into sentencesand  words),  automatically  categorize  whether  aparticular relationship holds between them, and (ii) which parts between them should be “aligned” insupport of the relationship in (i). We will refer tothese tasks respectively as document-to-document alignment (D2D) and sentence-to-document alignment (S2D).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### A new benchmark
+While many tasks and datasets focus on understand-ing the relationships between sentences or docu-ments separately, to the best of our knowledge, there are no joint publicly available English bench-mark for both D2D and S2D tasks. Annotating document correspondences is expensive and time-consuming, especially at a fine-grained level like sentences. Therefore, we introduce a new benchmark consisting of six tasks (four D2D and two S2D). 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XuhuiZhou/localized_document/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
