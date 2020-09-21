@@ -1,5 +1,6 @@
 ## A Benchmark for Document Relation Prediction and Localization
-This benchmark belongs our EMNLP2020 paper: Multilevel Text Alignment with Cross-Document Attention
+This benchmark belongs our EMNLP2020 paper: Multilevel Text Alignment with Cross-Document Attention. 
+
 We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button.
 Citation:
 
