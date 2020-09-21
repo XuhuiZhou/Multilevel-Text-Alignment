@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 title: Multilevel Text Alignment
 show_downloads: "true"
+github:
+  repository_url: https://github.com/XuhuiZhou/CDA
+  zip_url: https://drive.google.com/uc?export=download&id=1WK1PF0f-zyFUaqtuCN90WJWcQglk64xM
+  tar_url: https://drive.google.com/uc?export=download&id=1WK1PF0f-zyFUaqtuCN90WJWcQglk64xM
