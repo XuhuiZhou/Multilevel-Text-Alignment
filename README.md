@@ -1,8 +1,10 @@
 ## A Benchmark for Document Relation Prediction and Localization
 This benchmark belongs our EMNLP2020 paper: Multilevel Text Alignment with Cross-Document Attention. 
 
-To download the benchmark, please click the **Download.zip** or **Download.tar.gz** button.
+To download the benchmark, please click the **Download.zip** or **Download.tar.gz** button.[^1]
+
 We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button.
+
 Citation:
 
 ```bibtex
@@ -50,7 +52,7 @@ For S2ORC:
     year = "2020",
 }
 ```
-For Pla:
+For PAN:
 ```bibtex
 @InProceedings{potthast:2013,
   author =  {Martin Potthast and Tim Gollub and Matthias Hagen and Martin Tippmann and Johannes Kiesel and Paolo Rosso and Efstathios Stamatatos and Benno Stein},
@@ -66,6 +68,6 @@ Many potential applications of natural languageprocessing involve a comparative 
 ### A new benchmark
 While many tasks and datasets focus on understand-ing the relationships between sentences or docu-ments separately, to the best of our knowledge, there are no joint publicly available English bench-mark for both D2D and S2D tasks. Annotating document correspondences is expensive and time-consuming, especially at a fine-grained level like sentences. Therefore, we introduce a new benchmark consisting of six tasks (four D2D and two S2D). 
 
-
+[^1]: For now, we only provide you with a sample of our datasets. We are contacting original dataset authors. Full size dataset coming soon!
 
 
