@@ -16,8 +16,8 @@ Citation:
 
 ### Cite the Original Datasets
 If you use our datasets, we highly recommend you to cite the original datasets as well:
-For AAN:
 
+For AAN:
 ```bibtex
 @article{Radev2009TheAA,
   title={The ACL anthology network corpus},
