@@ -68,5 +68,17 @@ Many potential applications of natural languageprocessing involve a comparative 
 ### A new benchmark
 While many tasks and datasets focus on understand-ing the relationships between sentences or docu-ments separately, to the best of our knowledge, there are no joint publicly available English bench-mark for both D2D and S2D tasks. Annotating document correspondences is expensive and time-consuming, especially at a fine-grained level like sentences. Therefore, we introduce a new benchmark consisting of six tasks (four D2D and two S2D). 
 
+## Dataset 101
+Since our benchmark contains many tasks, some concrete examples would help with understanding and use the benchmark<sup>1</sup> : 
+
+#### AAN and OC:
+Those two datasets are straight-forward. They only consider the document-level tasks. ```1``` represents positive relationship and ```0``` represents no relationship.
+
+| Label      | Source Document | Target Document | 
+| ----------- | ----------- | ----------- |
+|   0  | Some particular classes of lexical paraphrases such as verb alteration and compound noun decomposi- tion can be handled by a handful of general rules and lexical semantic knowledge. In this paper, we attempt to capture the regularity underlying these classes of paraphrases, focusing on the paraphras- ing of Japanese light-verb constructions (LVCs). We propose a paraphrasing model for LVCs that is based on transforming the Lexical Conceptual Structures (LCSs) of verbal elements. We also pro- pose a refinement of an existing LCS dictionary... | In this paper we develop an automatic classifier for a very large set of labels, the WordNet synsets. We employ Conditional Random Fields (CRFs) because of their flexibility to include a wide variety of non- independent features. Training CRFs on a big number of labels proved a problem be- cause of the large training cost. By tak- ing into account the hypernym/hyponym relation between synsets in WordNet, we reduced the complexity of training from O(TM2NG) to O(T (logM)2NG) with only a limited loss in accuracy. |
 
 
+
+
+<sup>1</sup> Please always download the latest version of the dataset.
