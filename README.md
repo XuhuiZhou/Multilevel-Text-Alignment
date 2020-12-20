@@ -3,7 +3,7 @@ This benchmark belongs to our EMNLP2020 paper: [Multilevel Text Alignment with C
 
 To download the benchmark, please click the **Download** button.
 
-We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button. Please also see the [dataset 101](#headin) for details of our dataset.
+We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button. Please also see the [Dataset 101](#headin) for details of our dataset.
 
 Citation:
 
