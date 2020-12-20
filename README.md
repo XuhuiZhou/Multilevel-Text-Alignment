@@ -3,7 +3,7 @@ This benchmark belongs to our EMNLP2020 paper: [Multilevel Text Alignment with C
 
 To download the benchmark, please click the **Download** button.
 
-We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button.
+We also introduce a new modeling mechanism for this problem, see it by clicking the **View On Github** button. Please also see the [dataset 101](#headin) for details of our dataset.
 
 Citation:
 
@@ -68,7 +68,7 @@ Many potential applications of natural languageprocessing involve a comparative 
 ### A new benchmark
 While many tasks and datasets focus on understand-ing the relationships between sentences or docu-ments separately, to the best of our knowledge, there are no joint publicly available English bench-mark for both D2D and S2D tasks. Annotating document correspondences is expensive and time-consuming, especially at a fine-grained level like sentences. Therefore, we introduce a new benchmark consisting of six tasks (four D2D and two S2D). 
 
-## Dataset 101
+## Dataset 101<a name="headin"></a>
 Since our benchmark contains many tasks, some concrete examples would help with understanding and use the benchmark<sup>1</sup>. If you have any questions, please don't hesitate to contact! 
 
 #### AAN and OC:
